@@ -1,0 +1,30 @@
+.etl-prop {
+  position: absolute !important;
+  top: 105px;
+  bottom: 67px;
+  right: 0;
+  width: 200px;
+  background: #fff;
+  z-index: 999;
+
+  :global {
+    .ant-tabs-content {
+      padding: 0 10px;
+    }
+    .ant-tabs {
+      max-height: calc(100vh - 220px);
+      overflow-y: auto;
+    }
+  }
+}
+
+.save {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  width: 90%;
+}

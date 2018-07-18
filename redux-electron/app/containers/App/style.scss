@@ -1,0 +1,24 @@
+
+.lean-footer {
+    text-align: center;
+}
+
+.icon-link {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 20px;
+    color: #ccc;
+    cursor: pointer;
+
+    & i {
+        font-size: 16px;
+    }
+    & span {
+        display: block;
+    }
+
+    &:hover {
+        color: #fff;
+    }
+}

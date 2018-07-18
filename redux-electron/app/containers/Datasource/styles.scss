@@ -1,0 +1,23 @@
+.imgtype {
+    margin: 10px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    width: 100%
+}
+
+.imgtype:hover {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0 5px #e6e6e6;
+}
+
+.imgtype:checked {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0 5px #e6e6e6;
+    opacity: 0.9;
+}
+
+.dsIcon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}

@@ -1,0 +1,32 @@
+.etl-collapse {
+  position: absolute !important;
+  top: 64px;
+  bottom: 66px;
+  width: 200px;
+  z-index: 999;
+
+  :global {
+    .ant-card-body {
+      padding: 0 !important;
+      max-height: calc(100vh - 178px);
+      overflow-y: auto;
+    }
+  }
+}
+
+.etl-menus {
+  float: right;
+
+  & li {
+    padding: 0 15px;
+    border-left: 1px solid;
+    cursor: pointer;
+
+    & i { font-size: 20px; }
+    & span { display: block; }
+    &:hover {
+      background: #108ee9;
+      color: #fff;
+    }
+  }
+}

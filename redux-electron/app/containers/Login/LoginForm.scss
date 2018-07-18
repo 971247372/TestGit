@@ -1,0 +1,54 @@
+.formContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -340px;
+  width: 680px;
+
+  .inner {
+    position: relative;
+    border: none;
+
+    .title {
+      text-align: left;
+      font-size: 30px;
+      color: #0072AF;
+      line-height: 80px;
+    }
+    .subTitle {
+      text-align: left;
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+
+    .form {
+      background: #EFF0F0;
+      padding: 30px 40px;
+      z-index: 999999999;
+      overflow: hidden;
+      zoom: 1;
+      width: 412px;
+      height: 420px;
+      display: inline-block;
+    }
+    .desc {
+      position: relative;
+      display: inline-block;
+      width: 268px;
+      height: 420px;
+      
+
+      .descBg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(to right, #07b5fd, #4472fc );
+        opacity: 0.7;
+      }
+    }
+  }
+}
