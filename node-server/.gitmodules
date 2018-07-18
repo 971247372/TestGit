@@ -1,0 +1,12 @@
+[submodule "web"]
+	path = web
+	url = http://git.lean-bi.com/PTC/myptc-frontend.git
+	branch = develop
+[submodule "manage"]
+	path = manage
+	url = http://git.lean-bi.com/PTC/myptc-manage-frontend.git
+	branch = develop
+[submodule "mobile"]
+	path = mobile
+	url = http://git.lean-bi.com/PTC/myptc-mobile-frontend.git
+	branch = develop

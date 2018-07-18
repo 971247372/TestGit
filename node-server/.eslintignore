@@ -1,0 +1,24 @@
+# General
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+/coverage
+
+# production
+/build
+/lib
+
+# tmp files
+/uploads
+/file
+
+# passport strategy
+/passport/strategy
+/passport/wechat-enterprise
