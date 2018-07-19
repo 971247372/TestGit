@@ -1,5 +1,0 @@
-export const LOAD_JOB_LOG_LIST = 'log/LOAD_JOB_LOG_LIST';
-export const LOAD_JOB_LOG_LIST_SUCCESS = 'log/LOAD_JOB_LOG_LIST_SUCCESS';
-
-export const LOAD_LOG_LIST = 'log/LOAD_LOG_LIST';
-export const LOAD_LOG_LIST_SUCCESS = 'log/LOAD_LOG_LIST_SUCCESS';

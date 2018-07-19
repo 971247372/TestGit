@@ -1,12 +1,7 @@
-import datasourceLogic from './datasourceLogic';
-import appLogic from './appLogic';
-import jobLogic from './jobLogic';
-import etlLogic from './etlLogic';
-import logLogic from './LogLogic';
-import mapperLogic from './mapperLogic';
-import emailLogic from './emailLogic';
+// import logLogic from './LogLogic';
 
 // combine all logices
-const logices = [...datasourceLogic, ...appLogic, ...jobLogic, ...etlLogic, ...logLogic, ...mapperLogic, ...emailLogic];
+// const logices = [...logLogic];
 
-export default logices;
+// export default logices;
+export default [];
