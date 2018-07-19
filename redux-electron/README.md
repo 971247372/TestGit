@@ -1,4 +1,3 @@
-# Lean-ETL
 ## Install
 
 * **Note: requires a node version >= 7 and an npm version >= 4.**
